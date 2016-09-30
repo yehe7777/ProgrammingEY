@@ -15,15 +15,18 @@ public class Compund_interest
 		double number = keyboard.nextDouble(); 
 		System.out.println("Enter the life of the loan in years:"); 
 		double years = keyboard.nextDouble(); 
- 		System.out.println("Your total payment is: \n$" + Compund_interest.formula(principal, rate, number, years)); 
+ 		System.out.println("Your total payment is: \n$%10.2f" + Compund_interest.formula(principal, rate, number, years)); 
  	} 
  	 
- 	public double Compund_interest(double principal, double rate, double number, double years) 
- 	{ 
- 		 		return (("Math.pow(1+(rate/number),(principal*years)/(12*time)"); 
+ 	public double formula(double principal, double rate, double number, double years) 
+ 	{
+		 return Math.pow(Principal(1 + rate/ number ),(number * years))
+
+	} 
+ 		 		
 
 	  
-	}  
+	  
 	  
  		
 		
