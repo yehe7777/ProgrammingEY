@@ -8,16 +8,15 @@ public class BMI
 		double height = keyboard.nextDouble();
 		System.out.println("Enter your weight in pounds");
 		double weight = keyboard.nextDouble();
-<<<<<<< HEAD
+
 		double BMI = weight/ height *703;
 	       System.out.println("Your BMI is " + BMI + ".");
 		
-=======
+
 		double BMI =  weight/ height *703;
 	       System.out.println("Your BMI is " + BMI + ".");
 		
 	
 
->>>>>>> origin/master
 	}
 }
