@@ -1,3 +1,13 @@
 The things I learned today in my first lab was how to compile and run my file. At first I had alot of code 2 errors showing up and it had me in a setback. 
 But I figured out that I needed to put in in1.8.0_05/bxt/javac format in order for the filed to properly compile. 
 I also learned how to set up a basic print statment which is System.out.println (" ")
+
+•	Why  was ASCII created:
+Characters were used instead of graphics marks
+	ASCII were  good at marking clear divisions between printing jobs 
+
+\n = return for new line
+\t =inset a tab at this point
+\b	Insert a backspace in the text at this point.
+\"	Insert a double quote character in the text at this point.
+\\	Insert a backslash character in the text at this point.
