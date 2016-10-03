@@ -20,6 +20,6 @@ public class Boxes
 	
 	public double calcVol( double height, double length, double width)
 	{
-		return height*length*width/728;
+		return height*length*width/1728;
 	}
 }
