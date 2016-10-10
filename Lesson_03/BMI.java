@@ -13,7 +13,7 @@ public class BMI
 		
 
 		double BMI =  ((weight * 703)/(height * height));
-        System.out.printf("Your BMI is %10.4f\n", BMI);
+        System.out.printf("Your BMI is %10.4fs\n", BMI);
 		 System.out.println("BMI VALUES");
         System.out.println("Underweight: Under 18.5");
         System.out.println("Normal: 18.5-24.9 ");
