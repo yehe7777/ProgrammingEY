@@ -21,6 +21,6 @@ public class Compound_Interest
 	}
 	public double Total_Pay(double rate, double principle, double compounded, double time)
 	{
-		return ((principle*Math.pow(1+(rate/compounded),compounded*time))/(12.0 *time));
+		return ((principle*Math.pow(1+(rate/compounded),compounded*time))/(12.00 *time));
 	}
 }
