@@ -1,7 +1,7 @@
 import java.util.Scanner; 
 public class lab_04
 {
-	public static void main(String[]args)
+	public static void main(String[] args)
 	{
 		lab_04 form = new lab_04();
         Scanner kb = new Scanner(System.in);
