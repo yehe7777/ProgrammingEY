@@ -35,13 +35,13 @@ public class Lesson_lab
 	public void receipt(String item1, double price1, String item2, double price2, String item3, double price3, double subtotal, double tax, double total)
 	{
 		System.out.println("<<<<<<<<<__Receipt__>>>>>>>>>>");
-		System.out.printf("*  %15s  %10.2f", item1, price1);
-		System.out.printf("\n %15s  %10.2f", item2, price2);
-		System.out.printf("\n  %15s  %10.2f", item3, price3);
-		System.out.printf("\n\n  %15s  %10.2f", "Subtotal:", subtotal);
-		System.out.printf("\n %15s %10.2f", "Tax:", tax);
-		System.out.printf("\n  %15s  %10.2f", "Total:", total);
-		System.out.println("\n_________________________________________\\n\t* Thank you for your order *");
+		System.out.printf("*  %15s...... %10.2f", item1,  price1);
+		System.out.printf("\n %15s......  %10.2f", item2, price2);
+		System.out.printf("\n %15s......  %10.2f", item3, price3);
+		System.out.printf("\n %15s......  %10.2f", "Subtotal:", subtotal);
+		System.out.printf("\n %15s...... %10.2f", "Tax:", tax);
+		System.out.printf("\n %15s...... %10.2f", "Total:", total);
+		System.out.println("\n_________________________________________\n\t* Thank you for your order *");
 	}
 		
 		
