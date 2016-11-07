@@ -6,11 +6,11 @@ public class Average
 	{
 		Scanner kb = new Scanner(System.in);
 		System.out.println("Enter numeral 1");
-		double num1 = kb.nextDouble();
+		 num1 = kb.nextDouble();
 		System.out.println("Enter numeral 2");
-		double num2 = kb.nextDouble();
+		 num2 = kb.nextDouble();
 		System.out.println("Enter numeral 3");
-		double num3 = kb.nextDouble();
+		 num3 = kb.nextDouble();
 		
 		
 		average();
@@ -24,6 +24,8 @@ public class Average
 	}
 	public static void print()
 	{
-		System.out.printf("The average is %10.5f\n, + avg");
+		System.out.printf("The average of "+ num1 +", "+ num2 +", and "+ num3 +" is %15.5f .", avg);
+
 	}
+	
 }
