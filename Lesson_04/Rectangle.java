@@ -11,9 +11,9 @@ public class Rectangle
 		Scanner kb = new Scanner(System.in);
 		
 		System.out.println("Enter the length: ");
-		double l = kb.nextDouble();
+		 l = kb.nextDouble();
 		System.out.println("Enter the width: ");
-		double w = kb.nextDouble();
+		 w = kb.nextDouble();
 		
 		calcPerim();
 		print();
