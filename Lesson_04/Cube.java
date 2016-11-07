@@ -6,7 +6,7 @@ public class Cube
 	{
 		Scanner kb = new Scanner(System.in);
 		System.out.println("Enter the sides of the cube");
-		double side = kb.nextDouble();
+		 side = kb.nextDouble();
 		
 		calcSurf();
 		print();
