@@ -19,7 +19,7 @@ public class Circle
 	}
 	public static void print()
 	{
-		System.out.printf("The area of a circle with a radius of "+radius+" remains %.5f.", area);
+		System.out.printf("The area of a circle with a radius of "+radius+" remains %15.5f.", area);
 
 	}
 }
