@@ -5,18 +5,18 @@ public class Cubep2
 	public static void main(String[]args)
 	{
 		Scanner kb = new Scanner (System.in);
-		System.out.print("Enter the length of the cube");
-		double side = kb.nextDouble();
+		System.out.print("Enter the side length of the cube");
+		 side = kb.nextDouble();
+		print(calcSurface(side));
+
 		
-		calcSurf();
-		print();
 	}
-	public static void calcSurf()
+	public static double calcSurface(double side)
 	{
-		sa  = 6 * side * side;
+		return 6 * side * side;
 	}
-	public static void print()
+	public static void print(double sa)
 	{
-		System.out.printf("The surface area of the cube is %10.5f|n, + sa");
+		System.out.printf("The surface area of the cube is "+ side + " %10.5fn",  sa);
 	}
 }
