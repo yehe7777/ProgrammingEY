@@ -1,0 +1,20 @@
+public class Lesson_09
+{
+	public static void main(String[]args)
+	{
+		String [] names = new String[5];
+		Scanner kb = new Scanner(System.in);
+		System.out.println("please enter 5 names");
+		
+		for(int i = 0; i<names.length; i++)
+		{
+			names[i] = kb.next();
+			
+		}
+	}
+	//print the array
+	for (Stringname : names)
+	{
+		System.out.println("\"" + name + "\",");
+	}
+}
