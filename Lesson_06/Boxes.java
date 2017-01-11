@@ -8,7 +8,8 @@ public class Boxes
 		String word = kb.nextLine();
 		for(int y = 0; y<word.length(); y++)
 		{
-			System.out.print(word);
+			System.out.println(word);
+			
 		}	
 	}
 }
