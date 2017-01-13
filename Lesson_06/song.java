@@ -2,17 +2,20 @@ public class song
 {
 	public static void main (String[]args)
 	{
-		sing("Na, na , na", 4);
-		sing("Hey, hey, hey, hey", 3);
-		sing("Goodbye!", 1);
+		String line1 = ("Na na na" );
+		String line2 =("Hey hey hey");
+		String line3 =("Goodbye!");
+		hark(line1, 2);
+		hark(line2, 1);
+		hark(line3, 1);
 	}
 	
-	public static void sing(String lyrics, int repeat)
+	public static void hark(String line, int repeat)
 	{
 		for (int i = 1; i <= repeat; i++)
 		{
-			System.out.print(lyrics);
+			
 		}
-		System.out.println();
+		System.out.println(line);
 	}
 }
