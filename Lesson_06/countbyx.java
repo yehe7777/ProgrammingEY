@@ -8,7 +8,7 @@ public class countbyx
 		int number = kb.nextInt();
 		System.out.println("Enter the numerical amount to be counted.");
 		int count = kb.nextInt();
-		for (int i = 1; i <= number/count; i++)
+		for (int i = 0; i <= number/count; i++)
 		{
 			System.out.print(count*i + " ");
 		}
