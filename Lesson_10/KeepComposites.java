@@ -1,6 +1,6 @@
 import java.util.Arrays;
 import java.util.ArrayList;
-public class keepcomposites
+public class KeepComposites 
 {
 	static ArrayList<Integer> nums;
 	public static void main(String[]args)
