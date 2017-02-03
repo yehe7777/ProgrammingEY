@@ -1,36 +1,26 @@
-public class HumanDriver
-{
-	private String hair, eyes, skin;
+import java.util.Scanner;
 
-	public HumanDriver() {
-		setHES("", "", "");
-	}
+public class HumanDriver {
 
-	public HumanDriver(String h, String e, String s) {
-		setHES(h, e, s);
-	}
+	private static Scanner kb;
 
-	public void setHES(String h, String e, String s) {
-		this.hair = h;
-		this.eyes = e;
-		this.skin = s;
-	}
+	public static void main(String[] args) {
+		kb = new Scanner(System.in);
+		System.out.print("Enter hair features :: ");
+		String h = kb.next();
+		System.out.print("Enter eye features :: ");
+		String e = kb.next();
+		System.out.print("Enter skin tone  :: ");
+		String s = kb.next();
 
-	public String getHair() {
-		return hair;
-	}
+		Human object = new Human(h, e, s);
 
-	public String getEyes() {
-		return eyes;
-	}
+		System.out.println("\nMy info...\nHair: " + object.getHair() + "\nEyes: " + object.getEyes() + "\nSkin: "
+				+ object.getSkin());
 
-	public String getSkin() {
-		return skin;
+		object.setHES("dark", "light grey", "shady");
+
+		System.out.println("\nFriend's info...\nHair: " + object.getHair() + "\nEyes: " + object.getEyes() + "\nSkin: "
+				+ object.getSkin());
 	}
 }
-
-
-
-
-
-
