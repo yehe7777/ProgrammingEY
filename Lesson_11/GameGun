@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class GameGun
+{	
+	static int CLIPSIZE = 16;
+	static int bulletCount;
+	static int shotCount;
+	static String[] clip;
+	
+	public static void main(String[] args)
+	{
+		
+		Scanner kb = new Scanner(System.in);
+		bulletCount = 100;
+		shotCount = 0;
+		clip = new String[CLIPSIZE];
+		
+		resetClip();
+		
+		while(bulletCount > 0 || shotCount > 0)
+		{
+			System.out.println("Action: ");
+			String action = kb.nextLine();
+			if(action.equals("R"))
+			{
+				reload();
+			}
+			if(action.equals("S"))
+			{
+				System.out.println(shoot());
+			}
+			printClip();
+		}
