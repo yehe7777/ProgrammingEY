@@ -1,0 +1,7 @@
+public class User extends UserName {
+
+	public User(String firstName, String lastName, String avatar) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

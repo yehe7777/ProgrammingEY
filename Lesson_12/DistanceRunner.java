@@ -6,7 +6,7 @@ public class DistanceRunner {
 
 		Scanner in = new Scanner(System.in);
 
-		 {
+		try {
 			System.out.println("Enter the coordinates of the two points:");
 
 			System.out.print("X1 :: ");
@@ -25,6 +25,15 @@ public class DistanceRunner {
 			int y2 = in.nextInt();
 			in.nextLine();
 
+			Distance distObj = new Distance(x1, y1, x2, y2);
+			System.out.println("\n" + distObj);
+
+			distObj.setValues(1, 2, 3, 4);
+			System.out.println(distObj);
+
+		} finally {
+			in.close();
 		}
 	}
-}	
+
+}
