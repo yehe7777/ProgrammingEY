@@ -14,7 +14,7 @@ public class Satellite
 
 
        String printout = "\n\n" +
-               "==========================" + "\nStarting locations...";
+               "==========================" + "\nStarting locations.........";
 
 
        for (Location l : locate)
@@ -24,7 +24,7 @@ public class Satellite
 
 
        printout += "\n\n" + "==========================" +
-                   "\nDistance from home...";
+                   "\nDistance from home................";
 
 
        for (Location l : locate)
