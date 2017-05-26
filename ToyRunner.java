@@ -1,10 +1,11 @@
-public class ToyRunner {
-	public static void main (String[]args)
+public class ToyRunner
+{
+	public static void main(String[]args)
 	{
-		ActionFIgure object1 = new ActionFIgure("GI BUM");
-		System.out.println(object1);
+		AFigure plastic = new AFigure("Gi Figure");
+		Car tiny = new Car("Mini");
 		
-		Car object2 = new Car("homless mobile");
-		System.out.println(object2);
+		System.out.println(plastic);
+		System.out.println(tiny);
 	}
 }
